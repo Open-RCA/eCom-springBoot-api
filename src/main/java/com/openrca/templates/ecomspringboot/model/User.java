@@ -1,6 +1,6 @@
 package com.openrca.templates.ecomspringboot.model;
 
-import com.edu.smartstudentcard.enums.EAccountStatus;
+import com.openrca.templates.ecomspringboot.enums.EAccountStatus;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Data;
 

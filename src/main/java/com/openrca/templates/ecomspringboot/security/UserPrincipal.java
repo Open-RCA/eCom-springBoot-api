@@ -1,6 +1,6 @@
 package com.openrca.templates.ecomspringboot.security;
 
-import com.edu.smartstudentcard.model.User;
+import com.openrca.templates.ecomspringboot.model.User;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
