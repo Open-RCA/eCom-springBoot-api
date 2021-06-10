@@ -1,8 +1,8 @@
 package com.openrca.templates.ecomspringboot.config;
 
-import com.edu.smartstudentcard.security.CustomUserDetailsService;
-import com.edu.smartstudentcard.security.JwtAuthenticationEntryPoint;
-import com.edu.smartstudentcard.security.JwtAuthenticationFilter;
+import com.openrca.templates.ecomspringboot.security.CustomUserDetailsService;
+import com.openrca.templates.ecomspringboot.security.JwtAuthenticationEntryPoint;
+import com.openrca.templates.ecomspringboot.security.JwtAuthenticationFilter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

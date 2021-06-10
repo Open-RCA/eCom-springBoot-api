@@ -1,7 +1,7 @@
 package com.openrca.templates.ecomspringboot.model;
 
 
-import com.edu.smartstudentcard.enums.ERoleName;
+import com.openrca.templates.ecomspringboot.enums.ERoleName;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 

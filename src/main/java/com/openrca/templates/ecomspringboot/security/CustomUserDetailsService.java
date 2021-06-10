@@ -1,7 +1,7 @@
 package com.openrca.templates.ecomspringboot.security;
 
-import com.edu.smartstudentcard.model.User;
-import com.edu.smartstudentcard.repository.IUserRepository;
+import com.openrca.templates.ecomspringboot.model.User;
+import com.openrca.templates.ecomspringboot.repository.IUserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

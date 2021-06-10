@@ -26,8 +26,6 @@ public class User {
 	@NotNull(message = "last name is compulsory")
 	private String lastName;
 
-	private String fullName;
-
 	private String imageUrl;
 
 	@NotNull
@@ -48,9 +46,6 @@ public class User {
 	@JsonIgnore
 	@NotNull
 	private String password;
-
-	@ManyToOne
-	private Student student;
 
 	private String activationCode;
 

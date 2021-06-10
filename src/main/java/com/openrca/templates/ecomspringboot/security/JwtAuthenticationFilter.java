@@ -19,7 +19,7 @@ import java.io.IOException;
 public class JwtAuthenticationFilter extends OncePerRequestFilter {
 
 	@Autowired
-	private com.edu.smartstudentcard.security.JwtTokenProvider tokenProvider;
+	private com.openrca.templates.ecomspringboot.security.JwtTokenProvider tokenProvider;
 
 	@Autowired
 	private CustomUserDetailsService customUserDetailsService;
