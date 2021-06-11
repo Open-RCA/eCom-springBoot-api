@@ -36,7 +36,7 @@ public class SwaggerConfig {
                 .securityContexts(Arrays.asList(securityContext()))
                 .securitySchemes(Arrays.asList(apiKey()))
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.edu.smartstudentcard.controller"))
+                .apis(RequestHandlerSelectors.basePackage("com.openrca.templates.ecomspringboot.controller"))
                 .paths(PathSelectors.any())
                 .build();
     }
