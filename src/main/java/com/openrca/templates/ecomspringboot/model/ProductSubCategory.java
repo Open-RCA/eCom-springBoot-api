@@ -14,24 +14,18 @@ import java.sql.Date;
 @Builder
 @Data
 public class ProductSubCategory {
-    //Constructor without Id
-    public ProductSubCategory(String subCategoryName, Integer categoryId, Date addedAt) {
-        this.subCategoryName = subCategoryName;
-        this.categoryId = categoryId;
-        this.addedAt = addedAt;
-    }
 
     @Id
-    @Column(name = "sub_category_id")
+    @Column
     private Long subCategoryId;
 
-    @Column(name = "sub_category_name")
+    @Column
     private String subCategoryName;
 
-    @Column(name = "category_id")
+    @Column
     private Integer categoryId;
 
-    @Column(name = "addedAt")
+    @Column
     private Date addedAt;
 
 }

@@ -14,29 +14,23 @@ public class Product {
 
 
     @Id
-    @Column
+
     @GeneratedValue
     private Long productId;
 
-    @Column
-    private Long subCategoryId;
+    @ManyToOne
+    private ProductSubCategory subCategory;
 
-    @Column
     private String productName;
 
-    @Column
     private Float price;
 
-    @Column
     private Integer quantity;
 
-    @Column
     private String image_url;
 
-    @Column
     private String description;
 
-    @Column
     private Date addedAt;
 
 }
